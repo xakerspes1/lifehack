@@ -1,0 +1,97 @@
+; Copyright © Microsoft Corp.
+; Theme url - http://eversins.deviantart.com/art/All-Dark-theme-for-Windows-10-552594352
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=AllDarkEVE
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\System32\imageres.dll,-54
+Empty=%SystemRoot%\System32\imageres.dll,-55
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\cursors\aero_working.ani
+Arrow=%SystemRoot%\cursors\aero_arrow.cur
+DefaultValue=Windows Aero
+Hand=%SystemRoot%\cursors\aero_link.cur
+Help=%SystemRoot%\cursors\aero_helpsel.cur
+NWPen=%SystemRoot%\cursors\aero_pen.cur
+No=%SystemRoot%\cursors\aero_unavail.cur
+SizeAll=%SystemRoot%\cursors\aero_move.cur
+SizeNESW=%SystemRoot%\cursors\aero_nesw.cur
+SizeNS=%SystemRoot%\cursors\aero_ns.cur
+SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
+SizeWE=%SystemRoot%\cursors\aero_ew.cur
+UpArrow=%SystemRoot%\cursors\aero_up.cur
+Wait=%SystemRoot%\cursors\aero_busy.ani
+
+[Control Panel\Desktop]
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=4
+
+[VisualStyles]
+Path=%SystemRoot%\Resources\Themes\Aero\AeroLite.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0X7F000000
+VisualStyleVersion=10
+HighContrast=3
+
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=No Sounds
+
+[Control Panel\Colors]
+ActiveBorder=255 255 0
+ActiveTitle=40 49 62
+AppWorkspace=18 18 18
+Background=18 18 18
+ButtonAlternateFace=192 192 192
+ButtonDkShadow=255 255 255
+ButtonFace=18 18 18
+ButtonHilight=192 192 192
+ButtonLight=255 255 255
+ButtonShadow=128 128 128
+ButtonText=204 204 204
+GradientActiveTitle=128 0 128
+GradientInactiveTitle=0 128 0
+GrayText=40 49 62
+Hilight=98 111 97
+HilightText=246 247 185
+HotTrackingColor=172 199 246
+InactiveBorder=0 128 0
+InactiveTitle=40 49 62
+InactiveTitleText=128 128 128
+InfoText=255 255 255
+InfoWindow=18 18 18
+Menu=18 18 18
+MenuBar=18 18 18
+MenuHilight=128 0 128
+MenuText=255 255 255
+Scrollbar=18 18 18
+TitleText=204 204 204
+Window=18 18 18
+WindowFrame=32 32 32
+WindowText=204 204 204
